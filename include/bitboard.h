@@ -20,4 +20,6 @@ inline void pop_bit(bitboard* board, char bit)
     *board &= ~(1ll << (63 - bit));
 }
 
+void print_bitboard(bitboard b);
+
 #endif
